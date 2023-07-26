@@ -1,1 +1,1 @@
-Persamaan panas 1 dimensi
+1-dimensional heat equation
