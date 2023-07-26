@@ -1,6 +1,5 @@
 # # PERSAMAAN PANAS 1 DIMENSI
 import deepxde as dde
-from deepxde.backend import tf
 import numpy as np
 
 # library untuk membuat animasi:
