@@ -1,1 +1,1 @@
-Persamaan panas 2 dimensi dengan sumber panas di tengah domain
+Two-dimensional heat equation with source at the middle of the domain (point (0.5, 0.5))
