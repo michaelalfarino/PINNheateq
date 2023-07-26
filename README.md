@@ -1,5 +1,11 @@
 # Aplikasi Physics-Informed Neural Network (PINN) dalam Fenomena Persebaran Panas
 
+![Python](https://img.shields.io/badge/Python-black?logo=python)
+![DeepXDE](https://img.shields.io/badge/DeepXDE-black)
+![TensorFlow](https://img.shields.io/badge/TensorFlow-black?logo=tensorflow)
+![NumPy](https://img.shields.io/badge/NumPy-black?logo=numpy)
+![Matplotlib](https://img.shields.io/badge/matplotlib-black?logo=data:image/svg%2bxml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iVVRGLTgiPz4KPHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIxMjgiIGhlaWdodD0iMTI4IiBzdHJva2U9IiM3NzciIGZpbGwtb3BhY2l0eT0iLjgiPgo8cGF0aCBmaWxsPSIjRkZGIiBkPSJtNjMsMWE2Myw2MyAwIDEsMCAyLDB6bTAsMTRhNDksNDkgMCAxLDAgMiwwem0wLDE0YTM1LDM1IDAgMSwwCjIsMHptMCwxNGEyMSwyMSAwIDEsMCAyLDB6bTAsMTRhNyw3IDAgMSwwIDIsMHptNjQsN0gxbTEwOC00NS05MCw5MG05MCwwLTkwLTkwbTQ1LTE4djEyNiIvPgo8cGF0aCBmaWxsPSIjRjYwIiBkPSJtNTAsOC0yMCwxMCA2OCw5MiAxMC0xMEw2NCw2NHoiLz4KPHBhdGggZmlsbD0iI0ZDMCIgZD0ibTE3LDUwdjI4TDY0LDY0eiIvPgo8cGF0aCBmaWxsPSIjN0Y3IiBkPSJtNjQsNjQgNiwzNUg1OHoiLz4KPHBhdGggZmlsbD0iI0NGMyIgZD0ibTY0LDY0IDEzLTQwIDksNXoiLz4KPHBhdGggZmlsbD0iIzA0RiIgZD0ibTY0LDY0IDE0LTYgMSw0emwtMjYsMTMgMyw0eiIvPgo8L3N2Zz4=)
+
 Fenomena persebaran panas telah dimodelkan menggunakan *Physics-Informed Neural Network* (PINN). Metode ini memanfaatkan persamaan fisika yang sudah diketahui, seperti persamaan panas, ke dalam proses *training* dari *neural network*.
 
 Proyek ini bertujuan untuk menganalisis kinerja PINN dalam menyelesaikan masalah persebaran panas dan membandingkannya dengan pendekatan metode beda-hingga serta solusi analitik ketika solusinya tersedia. Fokus ada pada mempelajari perilaku PINN untuk masalah persebaran panas sederhana, mengevaluasi akurasi dan efisiensi komputasinya.
