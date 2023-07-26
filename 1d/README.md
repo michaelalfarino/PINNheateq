@@ -1,1 +1,1 @@
-1-dimensional heat equation
+One-dimensional heat equation
