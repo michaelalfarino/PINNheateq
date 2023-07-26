@@ -1,7 +1,6 @@
 # # PERSAMAAN PANAS 2 DIMENSI
 import deepxde as dde
 import numpy as np
-from deepxde.backend import tf
 
 # library untuk membuat animasi:
 from IPython.display import HTML
