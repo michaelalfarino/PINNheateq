@@ -8,9 +8,11 @@
 
 Fenomena persebaran panas telah dimodelkan menggunakan *Physics-Informed Neural Network* (PINN). Metode ini memanfaatkan persamaan fisika yang sudah diketahui, seperti persamaan panas, ke dalam proses *training* dari *neural network*.
 
-Proyek ini bertujuan untuk menganalisis kinerja PINN dalam menyelesaikan masalah persebaran panas dan membandingkannya dengan pendekatan metode beda-hingga serta solusi analitik ketika solusinya tersedia. Fokus ada pada mempelajari perilaku PINN untuk masalah persebaran panas sederhana, mengevaluasi akurasi dan efisiensi komputasinya.
+Proyek ini bertujuan untuk menganalisis kinerja PINN dalam menyelesaikan masalah persebaran panas dan membandingkannya dengan pendekatan metode beda hingga serta solusi analitik ketika solusinya tersedia. Fokus ada pada mempelajari perilaku PINN untuk masalah persebaran panas sederhana, mengevaluasi akurasi dan efisiensi komputasinya.
 
 Setelah itu, akan diperluas investigasi ke persamaan panas dua dimensi disertai dengan sumber panas lokal, yang menghadirkan tantangan karena adanya suku sumber panas. Dengan memanfaatkan fleksibilitas PINN, akan ditunjukkan kemampuan PINN untuk secara akurat menangkap perilaku rumit dari persebaran panas dengan adanya sumber panas tersebut.
+
+Kesimpulan yang diperoleh adalah PINN menunjukkan *mean-squared error* (MSE) yang lebih kecil dibandingkan metode beda hingga, membuatnya menjadi alternatif yang menjanjikan untuk menyelesaikan persamaan panas. Keuntungan utama PINN adalah kemampuannya menghasilkan solusi yang kontinu, penting untuk masalah-masalah lanjutan yang memerlukan solusi *smooth* dan *differentiable*.
 
 - [File PDF lengkap](https://github.com/michaelalfarino/PINNheateq/blob/main/Aplikasi%20Physics-Informed%20Neural%20Network%20(PINN)%20dalam%20Fenomena%20Persebaran%20Panas.pdf)
 
