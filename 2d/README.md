@@ -1,1 +1,1 @@
-Persamaan panas 2 dimensi
+Two-dimensional heat equation
